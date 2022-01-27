@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  font-family: "Red Hat Display";
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  height: 500px;
+  width: 330px;
+  background: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.music-person {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.information {
+  padding: 0 10%;
+}
+
+.inf-par {
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+  font-size: 0.85rem;
+  margin-top: -3%;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.subscribe-plane {
+  background-color: hsl(225, 100%, 94%, 0.35);
+  border-radius: 15px;
+}
+
+.icon-music {
+  margin: 3% 0 0 3%;
+  padding: 3%;
+  width: 15%;
+}
+
+.subscribe-plane p {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.annual-plan {
+  color: black;
+  font-weight: 900;
+  font-size: 0.85rem;
+}
+
+.annual-plan span {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  float: right;
+  margin-right: 8%;
+  margin-top: 10%;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.change:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(223, 47%, 23%);
+}
+
+.btn {
+  margin-top: 7%;
+  width: 100%;
+  padding: 5%;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: hsl(224, 29%, 31%);
+  cursor: pointer;
+}
+
+.footer {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 3%;
+}
+
+.footer:hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 375px) {
+  body {
+    background: url(images/pattern-background-mobile.svg);
+    background-color: hsl(225, 100%, 94%);
+  }
+}
